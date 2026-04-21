@@ -34,7 +34,7 @@ public class BuildingAPI {
 	@GetMapping(value = "/api/building/")
 	public Object getBuiding(@RequestParam(name="name", required = false) String name,
 							 @RequestParam(name="numberOfBasement", required = false) Integer numberOfBasement,
-							 @RequestParam(name="typeCode", required = false) List<String> typeCode) {
+							 @RequestParam(name="typeCode", required = false) List<String> typecode) {
 //		try { test
 //			valiDate(building); 
 //		} catch (FieldRequiredException e) {
